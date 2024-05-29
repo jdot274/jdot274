@@ -1,0 +1,17 @@
+{
+  "name": "jdot274",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "three": "^0.128.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.0.0"
+  }
+}
